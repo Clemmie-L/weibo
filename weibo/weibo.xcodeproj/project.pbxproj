@@ -7,25 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A42B75801CA6337E0052BBE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A42B757F1CA6337E0052BBE0 /* main.m */; };
-		A42B75831CA6337E0052BBE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A42B75821CA6337E0052BBE0 /* AppDelegate.m */; };
-		A42B75861CA6337E0052BBE0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A42B75851CA6337E0052BBE0 /* ViewController.m */; };
-		A42B75891CA6337E0052BBE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42B75871CA6337E0052BBE0 /* Main.storyboard */; };
+		856902EC4C4C839D948F2BAF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95B31B5F60F408E8B836DCBE /* libPods.a */; };
 		A42B758B1CA6337E0052BBE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A42B758A1CA6337E0052BBE0 /* Assets.xcassets */; };
 		A42B758E1CA6337E0052BBE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42B758C1CA6337E0052BBE0 /* LaunchScreen.storyboard */; };
+		A42B759A1CA638E50052BBE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A42B75971CA638E50052BBE0 /* AppDelegate.m */; };
+		A42B759C1CA638E50052BBE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A42B75991CA638E50052BBE0 /* main.m */; };
+		A42B75A81CA6397B0052BBE0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A42B75A71CA6397B0052BBE0 /* Info.plist */; };
+		A42B75B81CA63B7D0052BBE0 /* LFBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A42B75B71CA63B7D0052BBE0 /* LFBaseViewController.m */; };
+		A42B75BB1CA63B9B0052BBE0 /* LFMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A42B75BA1CA63B9B0052BBE0 /* LFMessageViewController.m */; };
+		A42B75BE1CA63BAE0052BBE0 /* LFProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A42B75BD1CA63BAE0052BBE0 /* LFProfileViewController.m */; };
+		A42B75C11CA63BDD0052BBE0 /* LFHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A42B75C01CA63BDD0052BBE0 /* LFHomeViewController.m */; };
+		A42B75C41CA63BF50052BBE0 /* LFDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A42B75C31CA63BF50052BBE0 /* LFDiscoverViewController.m */; };
+		A42B75C71CA63CFD0052BBE0 /* LFTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A42B75C61CA63CFD0052BBE0 /* LFTabBarViewController.m */; };
+		A42B75CF1CA662F20052BBE0 /* LFTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = A42B75CE1CA662F20052BBE0 /* LFTabBarView.m */; };
+		A42B75D11CA6673B0052BBE0 /* libSDAutoLayout.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A42B75D01CA6673B0052BBE0 /* libSDAutoLayout.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		324ACCFE6CD05BABA1ABBB9E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		33A6CB0708D41028142FCF89 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		95B31B5F60F408E8B836DCBE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A42B757B1CA6337E0052BBE0 /* weibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A42B757F1CA6337E0052BBE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A42B75811CA6337E0052BBE0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A42B75821CA6337E0052BBE0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A42B75841CA6337E0052BBE0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A42B75851CA6337E0052BBE0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A42B75881CA6337E0052BBE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A42B758A1CA6337E0052BBE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A42B758D1CA6337E0052BBE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A42B758F1CA6337E0052BBE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A42B75961CA638E50052BBE0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A42B75971CA638E50052BBE0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A42B75991CA638E50052BBE0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Other/main.m; sourceTree = "<group>"; };
+		A42B75A71CA6397B0052BBE0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A42B75B61CA63B7D0052BBE0 /* LFBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFBaseViewController.h; sourceTree = "<group>"; };
+		A42B75B71CA63B7D0052BBE0 /* LFBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFBaseViewController.m; sourceTree = "<group>"; };
+		A42B75B91CA63B9B0052BBE0 /* LFMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFMessageViewController.h; sourceTree = "<group>"; };
+		A42B75BA1CA63B9B0052BBE0 /* LFMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFMessageViewController.m; sourceTree = "<group>"; };
+		A42B75BC1CA63BAE0052BBE0 /* LFProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFProfileViewController.h; sourceTree = "<group>"; };
+		A42B75BD1CA63BAE0052BBE0 /* LFProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFProfileViewController.m; sourceTree = "<group>"; };
+		A42B75BF1CA63BDD0052BBE0 /* LFHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFHomeViewController.h; sourceTree = "<group>"; };
+		A42B75C01CA63BDD0052BBE0 /* LFHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFHomeViewController.m; sourceTree = "<group>"; };
+		A42B75C21CA63BF50052BBE0 /* LFDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFDiscoverViewController.h; sourceTree = "<group>"; };
+		A42B75C31CA63BF50052BBE0 /* LFDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFDiscoverViewController.m; sourceTree = "<group>"; };
+		A42B75C51CA63CFD0052BBE0 /* LFTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFTabBarViewController.h; sourceTree = "<group>"; };
+		A42B75C61CA63CFD0052BBE0 /* LFTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFTabBarViewController.m; sourceTree = "<group>"; };
+		A42B75CD1CA662F20052BBE0 /* LFTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFTabBarView.h; sourceTree = "<group>"; };
+		A42B75CE1CA662F20052BBE0 /* LFTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFTabBarView.m; sourceTree = "<group>"; };
+		A42B75D01CA6673B0052BBE0 /* libSDAutoLayout.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDAutoLayout.a; path = "Pods/../build/Debug-iphoneos/libSDAutoLayout.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +56,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A42B75D11CA6673B0052BBE0 /* libSDAutoLayout.a in Frameworks */,
+				856902EC4C4C839D948F2BAF /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C517AE6E2EF64F79B0470B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33A6CB0708D41028142FCF89 /* Pods.debug.xcconfig */,
+				324ACCFE6CD05BABA1ABBB9E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A42B75721CA6337E0052BBE0 = {
 			isa = PBXGroup;
 			children = (
 				A42B757D1CA6337E0052BBE0 /* weibo */,
 				A42B757C1CA6337E0052BBE0 /* Products */,
+				3C517AE6E2EF64F79B0470B3 /* Pods */,
+				ADEEBB11FEDF425345C01793 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +94,9 @@
 		A42B757D1CA6337E0052BBE0 /* weibo */ = {
 			isa = PBXGroup;
 			children = (
-				A42B75811CA6337E0052BBE0 /* AppDelegate.h */,
-				A42B75821CA6337E0052BBE0 /* AppDelegate.m */,
-				A42B75841CA6337E0052BBE0 /* ViewController.h */,
-				A42B75851CA6337E0052BBE0 /* ViewController.m */,
-				A42B75871CA6337E0052BBE0 /* Main.storyboard */,
+				A42B75951CA638E50052BBE0 /* Other */,
+				A42B759D1CA638F60052BBE0 /* Class */,
 				A42B758A1CA6337E0052BBE0 /* Assets.xcassets */,
-				A42B758C1CA6337E0052BBE0 /* LaunchScreen.storyboard */,
-				A42B758F1CA6337E0052BBE0 /* Info.plist */,
 				A42B757E1CA6337E0052BBE0 /* Supporting Files */,
 			);
 			path = weibo;
@@ -74,9 +105,194 @@
 		A42B757E1CA6337E0052BBE0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A42B757F1CA6337E0052BBE0 /* main.m */,
+				A42B75A71CA6397B0052BBE0 /* Info.plist */,
+				A42B758C1CA6337E0052BBE0 /* LaunchScreen.storyboard */,
+				A42B75991CA638E50052BBE0 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A42B75951CA638E50052BBE0 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A42B75961CA638E50052BBE0 /* AppDelegate.h */,
+				A42B75971CA638E50052BBE0 /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A42B759D1CA638F60052BBE0 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				A42B759E1CA638F60052BBE0 /* Extension */,
+				A42B759F1CA638F60052BBE0 /* Model */,
+				A42B75A01CA638F60052BBE0 /* Module */,
+				A42B75A61CA638F60052BBE0 /* Tool */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		A42B759E1CA638F60052BBE0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A42B759F1CA638F60052BBE0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A42B75A01CA638F60052BBE0 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				A42B75A31CA638F60052BBE0 /* Main */,
+				A42B75B31CA63B490052BBE0 /* Base */,
+				A42B75A21CA638F60052BBE0 /* Home */,
+				A42B75A11CA638F60052BBE0 /* Discover */,
+				A42B75A41CA638F60052BBE0 /* Message */,
+				A42B75A51CA638F60052BBE0 /* Profile */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		A42B75A11CA638F60052BBE0 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				A42B75AA1CA63A6E0052BBE0 /* Controller */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		A42B75A21CA638F60052BBE0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A42B75A91CA63A610052BBE0 /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A42B75A31CA638F60052BBE0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A42B75C91CA662560052BBE0 /* Controller */,
+				A42B75C81CA6624C0052BBE0 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A42B75A41CA638F60052BBE0 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				A42B75AB1CA63A780052BBE0 /* Controller */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		A42B75A51CA638F60052BBE0 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A42B75AC1CA63A850052BBE0 /* Controller */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A42B75A61CA638F60052BBE0 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		A42B75A91CA63A610052BBE0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A42B75BF1CA63BDD0052BBE0 /* LFHomeViewController.h */,
+				A42B75C01CA63BDD0052BBE0 /* LFHomeViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A42B75AA1CA63A6E0052BBE0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A42B75C21CA63BF50052BBE0 /* LFDiscoverViewController.h */,
+				A42B75C31CA63BF50052BBE0 /* LFDiscoverViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A42B75AB1CA63A780052BBE0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A42B75B91CA63B9B0052BBE0 /* LFMessageViewController.h */,
+				A42B75BA1CA63B9B0052BBE0 /* LFMessageViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A42B75AC1CA63A850052BBE0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A42B75BC1CA63BAE0052BBE0 /* LFProfileViewController.h */,
+				A42B75BD1CA63BAE0052BBE0 /* LFProfileViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A42B75B31CA63B490052BBE0 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A42B75B41CA63B5A0052BBE0 /* Controller */,
+				A42B75B51CA63B6B0052BBE0 /* View */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		A42B75B41CA63B5A0052BBE0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A42B75B61CA63B7D0052BBE0 /* LFBaseViewController.h */,
+				A42B75B71CA63B7D0052BBE0 /* LFBaseViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A42B75B51CA63B6B0052BBE0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A42B75C81CA6624C0052BBE0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A42B75CD1CA662F20052BBE0 /* LFTabBarView.h */,
+				A42B75CE1CA662F20052BBE0 /* LFTabBarView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A42B75C91CA662560052BBE0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A42B75C51CA63CFD0052BBE0 /* LFTabBarViewController.h */,
+				A42B75C61CA63CFD0052BBE0 /* LFTabBarViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		ADEEBB11FEDF425345C01793 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A42B75D01CA6673B0052BBE0 /* libSDAutoLayout.a */,
+				95B31B5F60F408E8B836DCBE /* libPods.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +302,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A42B75921CA6337E0052BBE0 /* Build configuration list for PBXNativeTarget "weibo" */;
 			buildPhases = (
+				DABB2B13C1356960437301E8 /* Check Pods Manifest.lock */,
 				A42B75771CA6337E0052BBE0 /* Sources */,
 				A42B75781CA6337E0052BBE0 /* Frameworks */,
 				A42B75791CA6337E0052BBE0 /* Resources */,
+				C913493541BBD13E3B02422B /* Embed Pods Frameworks */,
+				C22D5A69FB946CDDF28D89A3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -105,6 +324,7 @@
 		A42B75731CA6337E0052BBE0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LF;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Clemmie;
 				TargetAttributes = {
@@ -138,34 +358,80 @@
 			files = (
 				A42B758E1CA6337E0052BBE0 /* LaunchScreen.storyboard in Resources */,
 				A42B758B1CA6337E0052BBE0 /* Assets.xcassets in Resources */,
-				A42B75891CA6337E0052BBE0 /* Main.storyboard in Resources */,
+				A42B75A81CA6397B0052BBE0 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C22D5A69FB946CDDF28D89A3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C913493541BBD13E3B02422B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DABB2B13C1356960437301E8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A42B75771CA6337E0052BBE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A42B75861CA6337E0052BBE0 /* ViewController.m in Sources */,
-				A42B75831CA6337E0052BBE0 /* AppDelegate.m in Sources */,
-				A42B75801CA6337E0052BBE0 /* main.m in Sources */,
+				A42B75C71CA63CFD0052BBE0 /* LFTabBarViewController.m in Sources */,
+				A42B759A1CA638E50052BBE0 /* AppDelegate.m in Sources */,
+				A42B75C11CA63BDD0052BBE0 /* LFHomeViewController.m in Sources */,
+				A42B75C41CA63BF50052BBE0 /* LFDiscoverViewController.m in Sources */,
+				A42B75BB1CA63B9B0052BBE0 /* LFMessageViewController.m in Sources */,
+				A42B75BE1CA63BAE0052BBE0 /* LFProfileViewController.m in Sources */,
+				A42B75B81CA63B7D0052BBE0 /* LFBaseViewController.m in Sources */,
+				A42B759C1CA638E50052BBE0 /* main.m in Sources */,
+				A42B75CF1CA662F20052BBE0 /* LFTabBarView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A42B75871CA6337E0052BBE0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A42B75881CA6337E0052BBE0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A42B758C1CA6337E0052BBE0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -259,10 +525,16 @@
 		};
 		A42B75931CA6337E0052BBE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33A6CB0708D41028142FCF89 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = weibo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.clemmie.weibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -270,10 +542,16 @@
 		};
 		A42B75941CA6337E0052BBE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 324ACCFE6CD05BABA1ABBB9E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = weibo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.clemmie.weibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -298,6 +576,7 @@
 				A42B75941CA6337E0052BBE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
